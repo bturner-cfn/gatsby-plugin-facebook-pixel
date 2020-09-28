@@ -14,10 +14,11 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir .",
-    "watch": "babel -w src --out-dir ."
+    "watch": "babel -w src --out-dir .",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gscopet/gatsby-plugin-facebook-pixel"
+    "url": "https://github.com/bturner-cfn/gatsby-plugin-facebook-pixel.git"
   }
 }
